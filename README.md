@@ -3,7 +3,9 @@
 An open-source application that helps to pass online assessments and technical interviews without being detected.
 
 ## 🕵️‍♂️ Invisibility Compatibility
-The application **cannot be detected** by:
+
+#### 👻 **100% Invisible**
+Stealth Solver remains completely undetectable by all the below methods:
 - **Zoom**
 - **Microsoft Teams**
 - **Google Meet**
@@ -11,9 +13,6 @@ The application **cannot be detected** by:
 - **Other browser-based recording software**
 - **Screen sharing of tabs, windows, or entire screen**
 - **Screenshot or Screen recording**
-
-## 👻 **100% Invisible**
-Stealth Solver remains completely undetectable by all the above methods.
 
 ## Global Commands
 The application operates using mouse clicks on the **application overlay**, followed by the respective keyboard commands:
@@ -33,7 +32,7 @@ The application operates using mouse clicks on the **application overlay**, foll
 
 ## 💡 Usage
 
-## 🔗 gpt4free Providers
+## 🤖 GPT4Free Providers
 
 ## 🤝 Contribute
 

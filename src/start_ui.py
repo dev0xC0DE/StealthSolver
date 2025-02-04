@@ -11,6 +11,7 @@ from PyQt5.QtWidgets import (
     QPushButton,
     QHBoxLayout,
 )
+from PyQt5.QtGui import QIcon
 
 
 class InputDialog(QDialog):
@@ -18,6 +19,8 @@ class InputDialog(QDialog):
         """Initialize the InputDialog."""
         super().__init__()
         self.setWindowTitle("Stealth Solver")
+
+        self.setWindowIcon(QIcon('assets/logo128.png'))
 
         # Apply the dark stylesheet specifically to the InputDialog
         dark_stylesheet = """
