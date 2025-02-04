@@ -153,14 +153,14 @@ class MainWindow(QMainWindow):
                                 <h1 style="font-size: 20px; font-weight: bold;  text-align: center;">Stealth Solver</h1>
                                 <table style="margin: 0 auto; margin-top: 10px; font-size: 12px; font-weight: bold; border-collapse: collapse; text-align: center;">
                                     <tr>
-                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Move Window &nbsp; <span style="font-weight: bold;">[Cmd + arrows]</span></td>
-                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Take Screenshots &nbsp; <span style="font-weight: bold;">[Cmd + H]</span></td>
-                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Reset &nbsp; <span style="font-weight: bold;">[Cmd + R]</span></td>
+                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Move Window &nbsp; <span style="font-weight: bold;">[Ctrl + arrows]</span></td>
+                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Take Screenshots &nbsp; <span style="font-weight: bold;">[Ctrl + H]</span></td>
+                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Reset &nbsp; <span style="font-weight: bold;">[Ctrl + R]</span></td>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Toggle Brightness &nbsp; <span style="font-weight: bold;">[Cmd + b]</span></td>
-                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Get Code &nbsp; <span style="font-weight: bold;">[Cmd + Enter]</span></td>
-                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Quit &nbsp; <span style="font-weight: bold;">[Cmd + Q]</span></td>
+                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Toggle Brightness &nbsp; <span style="font-weight: bold;">[Ctrl + b]</span></td>
+                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Get Code &nbsp; <span style="font-weight: bold;">[Ctrl + Enter]</span></td>
+                                        <td style="padding: 20px; border: 1px solid white; text-align: center; vertical-align: middle;">Quit &nbsp; <span style="font-weight: bold;">[Ctrl + Q]</span></td>
                                     </tr>
                                 </table>
                                 <div style="display: flex; justify-content: center; align-items: center; margin-top: 10px;">
