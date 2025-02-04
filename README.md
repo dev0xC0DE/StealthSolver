@@ -18,7 +18,7 @@ Stealth Solver remains completely undetectable by all the below methods:
 
 ---
 
-## Global Commands
+## ⌨️ Commands
 The application operates using mouse clicks on the **application overlay**, followed by the respective keyboard commands:
 - **Toggle Window Brightness:** `Control + B`
 - **Move Window:** `Control + Arrow Keys`
@@ -33,89 +33,91 @@ The application operates using mouse clicks on the **application overlay**, foll
 
 ### 🪟 Windows Guide (.exe)
 
-####  Download the Application  
-- Visit the [GitHub Releases](https://github.com/Anurag-Varma/StealthSolver/releases) page.  
-- Download the latest version of the application (e.g., `StealthSolver.zip`).  
+1. ####  Download the Application  
+    - Visit the [GitHub Releases](https://github.com/Anurag-Varma/StealthSolver/releases) page.  
+    - Download the latest version of the application (e.g., `StealthSolver.zip`).  
 
-####  Extract Files  
-- Locate the downloaded `StealthSolver.zip` file in your **Downloads** folder.  
-- Extract it to a directory of your choice.  
+2. ####  Extract Files  
+    - Locate the downloaded `StealthSolver.zip` file in your **Downloads** folder.  
+    - Extract it to a directory of your choice.  
 
-####  Run the Application  
-- Open the extracted folder and double-click `StealthSolver.exe` to launch the application.  
+3. ####  Run the Application  
+    - Open the extracted folder and double-click `StealthSolver.exe` to launch the application.  
 
-####  Firewall & Antivirus Configuration (Hotfix)  
-- If prompted, allow the application through **Windows Firewall** to ensure smooth operation.  
-- Sometimes, **Microsoft Defender or other antivirus software** may flag the application as a potential threat. If this happens:  
-  - Temporarily **disable** Microsoft Defender or your antivirus.  
-  - **Whitelist** `StealthSolver.exe` in your antivirus settings.  
-- The application is **not a virus**, but it may be incorrectly flagged as the `.exe` is made using pyinstaller without a verfied signature.
+4. ####  Firewall & Antivirus Configuration (Hotfix)  
+    - If prompted, allow the application through **Windows Firewall** to ensure smooth operation.  
+    - Sometimes, **Microsoft Defender or other antivirus software** may flag the application as a potential threat. If this happens:  
+      - Temporarily **disable** Microsoft Defender or your antivirus.  
+      - **Whitelist** `StealthSolver.exe` in your antivirus or Microsoft Defender settings.  [See the tutorial](https://www.elevenforum.com/t/add-or-remove-exclusions-for-microsoft-defender-antivirus-in-windows-11.8797/)
+    - The application is **not a virus**, but it may be incorrectly flagged as the `.exe` is made using pyinstaller without a verfied signature.
 
 ---
 
 ### 🐍 Python Installation
 
-#### Prerequisites
+1. #### Prerequisites
 
-- **Python 3.9 or above** is required, can be installed from [python.org](https://www.python.org/ "python.org")
-  - Verify your Python version:
+    **Python 3.9 or above** is required, can be installed from [python.org](https://www.python.org/ "python.org")
+   
+      Verify your Python version:
+   
+      ```bash
+      python --version
+      ```
+      or
+      ```bash
+      python3 --version
+      ```
+
+3. #### Clone the Repository
+
+    Open a terminal and clone the repository to your local machine:
+    
     ```bash
-    python --version
+    git clone https://github.com/Anurag-Varma/StealthSolver.git
+    cd StealthSolver
     ```
-    or
+
+3. #### Set Up a Virtual Environment (Optional but Recommended)
+
+    Create and activate a virtual environment to isolate dependencies:
+  
+     - On Windows:
+       ```bash
+       python -m venv env
+       env\Scripts\activate
+       ```
+     - On macOS/Linux:
+       ```bash
+       python3.9 -m venv env
+       source env/bin/activate
+       ```
+
+4. #### Install Dependencies
+
+    The repository contains a `requirements.txt` file, which lists the required Python packages. Install them using pip:
+    
     ```bash
-    python3 --version
+    pip install -r requirements.txt
     ```
 
-#### Clone the Repository
+5. #### Verify Installation
 
-Open a terminal and clone the repository to your local machine:
+    Check that all dependencies are installed correctly by running any test scripts or commands provided in the repository:
+    
+    ```bash
+    python main.py
+    ```
 
-```bash
-git clone https://github.com/Anurag-Varma/StealthSolver.git
-cd StealthSolver
-```
+6. #### Build the Application (Optional)
 
-#### Set Up a Virtual Environment (Optional but Recommended)
-
-Create and activate a virtual environment to isolate dependencies:
-
-   - On Windows:
-     ```bash
-     python -m venv env
-     env\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```bash
-     python3.9 -m venv env
-     source env/bin/activate
-     ```
-
-#### Install Dependencies
-
-The repository contains a `requirements.txt` file, which lists the required Python packages. Install them using pip:
-
-```bash
-pip install -r requirements.txt
-```
-
-#### Verify Installation
-
-Check that all dependencies are installed correctly by running any test scripts or commands provided in the repository:
-
-```bash
-python main.py
-```
-
-#### Build the Application (Optional)
-
-If you want to build a standalone `.exe` file for the application, you can use the `pyinstaller` tool. Run the following command:
-
-```bash
-pyinstaller --onefile --noconsole --name "StealthSolver" --icon=assets/logo.ico --add-data "assets/logo128.png;assets" main.py
-```
-
-This command will create a single executable file named `StealthSolver.exe` in the `dist` directory.
+    If you want to build a standalone `.exe` file for the application, you can use the `pyinstaller` tool. Run the following command:
+    
+    ```bash
+    pyinstaller --onefile --noconsole --name "StealthSolver" --icon=assets/logo.ico --add-data "assets/logo128.png;assets" main.py
+    ```
+    
+    This command will create a single executable file named `StealthSolver.exe` in the `dist` directory.
 
 By following these steps, you can set up and run the **StealthSolver** project, or optionally build a standalone `.exe` file.
 
@@ -123,13 +125,47 @@ By following these steps, you can set up and run the **StealthSolver** project, 
 
 ## 💡 Usage
 
+1. Open the `StealthSolver.exe` app or run `python main.py` in StealthSolver and the below application pops up.
 
+   <img src="https://github.com/user-attachments/assets/43dcedc5-943e-44c0-9fe1-4da4d30e016a" width="500" height="300" />
+
+2. Select the screen number where you want to start the application on (Default main screen is 0).
+   
+3. Select the Coding language in which you want to get the code results using Stealth Solver (Default is Python).
+   
+4. Select the Provider from gpt4free providers list which supports Vision (image upload) features and doesn't require any authorization.
+
+5. After few seconds, the application opens in the mentioned screen.
+
+   <img src="https://github.com/user-attachments/assets/74859d5a-ad3c-4adf-998e-1c92ef527d0f" width="500" height="300" />
+   
+   (Click and open the above picture for clarity. Photo was taken from phone, as the StealthSolver pic cant be taken via snippping or screenshot)
+
+6. You can use different functionalities as mentioned in [Commands](https://github.com/Anurag-Varma/StealthSolver/main/README.md#%EF%B8%8F-commands).
+
+7. To get the code outputs for then question being displayed on the screen.
+   1. Press `Ctrl + h` to save screenshots as required by scrolling through the question. (Total screenshot count can be tracked in the UI).
+   2. Press `Ctrl + Enter` to send the screenshots to the gpt4free providers and get the code in previously selected language. 
+   
+8. The code for the question is dislpayed in the application where the code can be scrolled in vertical or horizontal direction if too long.
+
+   <img src="https://github.com/user-attachments/assets/15badbc4-6e7f-4962-8a7b-c0e6f2294e62" width="500" height="300" />
+
+   (Click and open the above picture for clarity. Photo was taken from phone, as the StealthSolver pic cant be taken via snippping or screenshot)
+
+9. Press `Ctrl + r` to reset the screenshots when you want to start again for a new question.
+
+10. Press `Ctrl + q` if you want to quit the application.
+
+11. (Optional):
+    - Can move the application inside the previously selected screen by pressing `Ctrl + arrow keys` (Up, Down, Left, Right).
+    - Can adjust the brightness/opacity of the background black color by pressing `Ctrl + b`.
 
 ---
 
 ## 🤖 GPT4Free Providers
 
-Available providers with no required authorization and with Vision(Image Upload) feature - [gpt4free](https://github.com/xtekky/gpt4free/blob/main/docs/providers-and-models.md#providers-no-auth-required "gpt4free")
+  Available providers with no required authorization and with Vision(Image Upload) feature - [gpt4free](https://github.com/xtekky/gpt4free/blob/main/docs/providers-and-models.md#providers-no-auth-required "gpt4free")
 
 | Website | API Credentials | Provider | Text Models | Image Models | Vision (Image Upload) | Stream | Status |
 |----------|-------------|--------------|---------------|--------|--------|------|------|
