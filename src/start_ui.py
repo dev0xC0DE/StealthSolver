@@ -14,11 +14,13 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QIcon
 
+
 def resource_path(relative_path):
     """Get absolute path to resource, works for dev and PyInstaller .exe"""
-    if hasattr(sys, '_MEIPASS'):  # PyInstaller stores bundled files in _MEIPASS
+    if hasattr(sys, "_MEIPASS"):  # PyInstaller stores bundled files in _MEIPASS
         return os.path.join(sys._MEIPASS, relative_path)
     return os.path.join(os.path.abspath("."), relative_path)
+
 
 class InputDialog(QDialog):
     def __init__(self):
