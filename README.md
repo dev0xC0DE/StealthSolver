@@ -1,6 +1,7 @@
 # Stealth Solver
 
-An open-source application that helps to pass online assessments and technical interviews without being detected.
+An open-source tool designed to assist with technical assessments and online interviews.
+
 
 ## 🕵️‍♂️ Invisibility Compatibility
 

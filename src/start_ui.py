@@ -2,6 +2,7 @@
 """This module contains the InputDialog class for the Stealth Solver application."""
 
 import sys
+import os
 from PyQt5.QtWidgets import (
     QDialog,
     QGridLayout,
@@ -13,6 +14,11 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QIcon
 
+def resource_path(relative_path):
+    """Get absolute path to resource, works for dev and PyInstaller .exe"""
+    if hasattr(sys, '_MEIPASS'):  # PyInstaller stores bundled files in _MEIPASS
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 class InputDialog(QDialog):
     def __init__(self):
@@ -20,7 +26,7 @@ class InputDialog(QDialog):
         super().__init__()
         self.setWindowTitle("Stealth Solver")
 
-        self.setWindowIcon(QIcon('assets/logo128.png'))
+        self.setWindowIcon(QIcon(resource_path("assets/logo128.png")))
 
         # Apply the dark stylesheet specifically to the InputDialog
         dark_stylesheet = """
