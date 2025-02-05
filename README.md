@@ -19,7 +19,7 @@ Stealth Solver remains completely undetectable by all the below methods:
 ---
 
 ## ⌨️ Commands
-The application operates using mouse clicks on the **application overlay**, followed by the respective keyboard commands:
+The application operates by using a first mouse click on the **application overlay**, followed by pressing any of the respective keyboard commands to perform the respective action:
 - **Toggle Window Brightness:** `Control + B`
 - **Move Window:** `Control + Arrow Keys`
 - **Take Screenshot:** `Control + H`
@@ -143,21 +143,22 @@ By following these steps, you can set up and run the **StealthSolver** project, 
 
 6. You can use different functionalities as mentioned in [Commands](https://github.com/Anurag-Varma/StealthSolver/main/README.md#%EF%B8%8F-commands).
 
-7. To get the code outputs for then question being displayed on the screen.
-   1. Press `Ctrl + h` to save screenshots as required by scrolling through the question. (Total screenshot count can be tracked in the UI).
-   2. Press `Ctrl + Enter` to send the screenshots to the gpt4free providers and get the code in previously selected language. 
+7. To get the code outputs for the question being displayed on the screen.
+   1. Make a mouse click anywhere on the application region, then you can use the other commands to interact with it.
+   2. Press `Ctrl + h` to save screenshots as required by scrolling through the question. (Total screenshot count can be tracked in the UI).
+   3. Press `Ctrl + Enter` to send the screenshots to the gpt4free providers and get the code in previously selected language. 
    
-8. The code for the question is dislpayed in the application where the code can be scrolled in vertical or horizontal direction if too long.
+9. The code for the question is dislpayed in the application where the code can be scrolled in vertical or horizontal direction if too long.
 
    <img src="https://github.com/user-attachments/assets/15badbc4-6e7f-4962-8a7b-c0e6f2294e62" width="500" height="300" />
 
    (Click and open the above sample picture for clarity)
 
-9. Press `Ctrl + r` to reset the screenshots when you want to start again for a new question.
+10. Press `Ctrl + r` to reset the screenshots when you want to start again for a new question.
 
-10. Press `Ctrl + q` if you want to quit the application.
+11. Press `Ctrl + q` if you want to quit the application.
 
-11. (Optional):
+12. (Optional):
     - Can move the application inside the previously selected screen by pressing `Ctrl + arrow keys` (Up, Down, Left, Right).
     - Can adjust the brightness/opacity of the background black color by pressing `Ctrl + b`.
 
