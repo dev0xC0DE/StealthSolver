@@ -139,7 +139,7 @@ By following these steps, you can set up and run the **StealthSolver** project, 
 
    <img src="https://github.com/user-attachments/assets/74859d5a-ad3c-4adf-998e-1c92ef527d0f" width="500" height="300" />
    
-   (Click and open the above picture for clarity. Photo was taken from phone, as the StealthSolver pic cant be taken via snippping or screenshot)
+   (Click and open the above sample picture for clarity)
 
 6. You can use different functionalities as mentioned in [Commands](https://github.com/Anurag-Varma/StealthSolver/main/README.md#%EF%B8%8F-commands).
 
@@ -151,7 +151,7 @@ By following these steps, you can set up and run the **StealthSolver** project, 
 
    <img src="https://github.com/user-attachments/assets/15badbc4-6e7f-4962-8a7b-c0e6f2294e62" width="500" height="300" />
 
-   (Click and open the above picture for clarity. Photo was taken from phone, as the StealthSolver pic cant be taken via snippping or screenshot)
+   (Click and open the above sample picture for clarity)
 
 9. Press `Ctrl + r` to reset the screenshots when you want to start again for a new question.
 
