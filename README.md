@@ -1,6 +1,6 @@
 # Stealth Solver
 
-An open-source tool designed to assist with technical assessments and online interviews.
+An open-source tool designed to assist with coding problems in technical assessments and online interviews.
 
 ---
 
