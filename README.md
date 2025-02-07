@@ -34,7 +34,7 @@ The application operates by using a first mouse click on the **application overl
 ### 🪟 Windows Guide (.exe)
 
 1. ####  Download the Application  
-    - Visit the [GitHub Releases](https://github.com/Anurag-Varma/StealthSolver/releases) page.  
+    - Visit the [GitHub Releases](https://github.com/dev0xC0DE/StealthSolver/releases) page.  
     - Download the latest version of the application (e.g., `StealthSolver.zip`).  
 
 2. ####  Extract Files  
@@ -74,7 +74,7 @@ The application operates by using a first mouse click on the **application overl
     Open a terminal and clone the repository to your local machine:
     
     ```bash
-    git clone https://github.com/Anurag-Varma/StealthSolver.git
+    git clone https://github.com/dev0xC0DE/StealthSolver.git
     cd StealthSolver
     ```
 
@@ -141,7 +141,7 @@ By following these steps, you can set up and run the **StealthSolver** project, 
    
    (Click and open the above sample picture for clarity)
 
-6. You can use different functionalities as mentioned in [Commands](https://github.com/Anurag-Varma/StealthSolver/main/README.md#%EF%B8%8F-commands).
+6. You can use different functionalities as mentioned in [Commands](https://github.com/dev0xC0DE/StealthSolver/main/README.md#%EF%B8%8F-commands).
 
 7. To get the code outputs for the question being displayed on the screen.
    1. Make a mouse click anywhere on the application region, then you can use the other commands to interact with it.
@@ -178,7 +178,7 @@ By following these steps, you can set up and run the **StealthSolver** project, 
 
 ## ❓ Need Help
 
-If you encounter any issues, check the [Issue Tracker](https://github.com/Anurag-Varma/StealthSolver/issues)
+If you encounter any issues, check the [Issue Tracker](https://github.com/dev0xC0DE/StealthSolver/issues)
 
 ---
 
@@ -195,7 +195,7 @@ Creating a pull request is all it takes. Once all changes have been addressed, w
 This program is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)
 
 ```bash
-Anurag-Varma/StealthSolver: Copyright (C) 2024 Anurag Varma
+dev0xC0DE/StealthSolver: Copyright (C) 2024 dev0xC0DE
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -223,7 +223,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <td>
       <img src="https://img.shields.io/badge/License-GNU_GPL_v3.0-red.svg" alt="License Badge"> <br>
       This project is licensed under 
-      <a href="https://github.com/Anurag-Varma/StealthSolver/blob/main/LICENSE" target="_blank">GNU GPL v3.0</a>.
+      <a href="https://github.com/dev0xC0DE/StealthSolver/blob/main/LICENSE" target="_blank">GNU GPL v3.0</a>.
     </td>
   </tr>
 </table>
